@@ -142,11 +142,6 @@ Recent themes on [shubhamkatta.com](https://shubhamkatta.com):
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shubhamkatta&show_icons=true&hide_border=true&theme=dark&bg_color=09090b&title_color=A3E635&icon_color=A3E635&text_color=e4e4e7" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhamkatta&layout=compact&hide_border=true&theme=dark&bg_color=09090b&title_color=A3E635&text_color=e4e4e7" height="165" />
-
-<br/><br/>
-
 **Open to conversations about distributed systems, threat intelligence, and LLM platforms.**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3f6212,50:18181b,100:09090b&height=100&section=footer" width="100%" />
