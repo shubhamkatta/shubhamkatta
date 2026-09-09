@@ -39,13 +39,19 @@ I care about two things more than anything else on a resume: whether the system 
 
 ---
 
-## What I am working on
+## Day job
 
-**Securonix · ThreatQ** — Ingestion, enrichment, and correlation across multi-source threat data. Currently leading a migration that I re-scoped from a $500K multi-year plan to a $70K incremental path. Also pushing observability from an afterthought to a default.
+**Securonix · ThreatQ** — Platform and infrastructure work underneath a threat intelligence product. Most of my time goes to observability and reliability: making failure modes visible, making systems behave predictably under load, and making the ingestion and enrichment paths easier to operate. Feature work and bug fixes alongside it.
 
-**[AdWatch](https://shubhamkatta.com)** — TV advertisement verification. Broadcast feeds in, proof of airing out. Currently in discussions with Indian MSOs for licensed feed access.
+---
 
-**Mayva** — An AI personal assistant built with former Cyble colleagues. Less chat, more actually doing the thing.
+## Side projects
+
+Built on my own time, outside of work.
+
+**AdWatch** — TV advertisement verification. Broadcast feeds in, proof of airing out.
+
+**Mayva** — A local-first AI personal assistant. Less chat, more actually doing the thing.
 
 **[shubhamkatta.com](https://shubhamkatta.com)** — Essays on Claude Code, MCP, RAG evaluation, AI governance, and the human side of building software. Around 6,500 monthly readers, which still surprises me.
 
