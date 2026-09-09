@@ -22,7 +22,7 @@ I build the unglamorous parts of security products. Ingestion pipelines that do 
 
 Nine and a half years of it. I joined Cyble as the sixth person and built three products from an empty repo to paying enterprise customers. Now I lead India engineering for ThreatQ at Securonix, working on the same problem at a larger blast radius.
 
-I care about two things more than anything else on a resume: whether the system holds under real load, and whether the next engineer can understand it without a meeting.
+Two things matter to me more than anything on a resume: whether the system holds under real load, and whether the next engineer can read it without booking a call to have it explained.
 
 <div align="center">
 
@@ -31,7 +31,6 @@ I care about two things more than anything else on a resume: whether the system 
 | **$36K/yr** | Infra cost removed via protocol and storage optimization |
 | **$430K** | Migration spend avoided by re-architecting a proposed upgrade path |
 | **1B+ records** | Queried with predictable sub-second latency |
-| **25 days** | Zero to production for a full Threat Intelligence Platform |
 | **75% fewer** | Manual ops hours after pipeline automation |
 | **9 engineers** | Team led through hiring, review standards, and on-call |
 
@@ -41,35 +40,35 @@ I care about two things more than anything else on a resume: whether the system 
 
 ## Day job
 
-**Securonix · ThreatQ** — Platform and infrastructure work underneath a threat intelligence product. Most of my time goes to observability and reliability: making failure modes visible, making systems behave predictably under load, and making the ingestion and enrichment paths easier to operate. Feature work and bug fixes alongside it.
+**Securonix, ThreatQ.** Infrastructure work underneath a threat intelligence product. Most of my time goes to observability and reliability: making failure modes visible before a customer finds them, keeping behaviour predictable under load, and generally trying to make the ingestion and enrichment paths boring. Features and bugs in between. Nobody is above a bug.
 
 ---
 
 ## Side projects
 
-Built on my own time, outside of work.
+Built on my own time, on weekends I could arguably have spent outdoors.
 
-**AdWatch** — TV advertisement verification. Broadcast feeds in, proof of airing out.
+**AdWatch.** TV advertisement verification. Broadcast feeds in, proof of airing out.
 
-**Mayva** — A local-first AI personal assistant. Less chat, more actually doing the thing.
+**Mayva.** A local-first AI personal assistant. Less chat, more actually doing the thing.
 
-**[shubhamkatta.com](https://shubhamkatta.com)** — Essays on Claude Code, MCP, RAG evaluation, AI governance, and the human side of building software. Around 6,500 monthly readers, which still surprises me.
+**[shubhamkatta.com](https://shubhamkatta.com).** Essays on Claude Code, MCP, RAG evaluation, AI governance, and the human side of building software. About 6,500 people read it monthly, which I have decided not to examine too closely.
 
 ---
 
 ## Things I built at Cyble
 
-Most of this is closed source, so here is what it did rather than what it looks like.
+Most of it is closed source, so here is what it did rather than what it looked like.
 
-**Cyble TIP** — Full threat intelligence platform, architected and shipped in 25 days using LLM-accelerated development. Unlocked the first enterprise pilots.
+**Cyble TIP.** Full threat intelligence platform, taken from an empty repo to something enterprises would pilot. Heavy LLM-assisted development, back when that still felt like a strange thing to admit.
 
-**Cyble Hawk** — MVP in 10 days. Directly unblocked government partnerships. Owned the roadmap through GA.
+**Cyble Hawk.** MVP in ten days. Unblocked government partnerships. I owned the roadmap through GA, which mostly meant saying no in a friendly tone.
 
-**Correlation and knowledge graph pipeline** — Unified signals from 30+ services for high-precision entity linking across threat feeds. The hard part was never the graph. It was deciding what counts as the same entity.
+**Correlation and knowledge graph pipeline.** Unified signals from 30+ services into high-precision entity linking across threat feeds. The graph was never the hard part. Deciding what counts as the same entity was.
 
-**Kafka and Celery ingestion layer** — Idempotent workers, retries, dead letter queues. Built so that a bad upstream feed degrades one path instead of the whole system.
+**Kafka and Celery ingestion layer.** Idempotent workers, retries, dead letter queues. Built so a bad upstream feed ruins one path instead of the whole evening.
 
-**LLM gateway on LiteLLM** — Routing, fallback, and cost control across providers. Cut spend by around 30%.
+**LLM gateway on LiteLLM.** Routing, fallback, and cost control across providers. Cut spend by about 30%, which bought a surprising amount of goodwill in budget meetings.
 
 ---
 
@@ -129,13 +128,13 @@ Most of this is closed source, so here is what it did rather than what it looks 
 
 ## Writing
 
-I write about the parts of AI engineering that do not fit in a demo. Evaluation. Governance. What breaks when you put a retrieval pipeline in front of real users.
+I write about the parts of AI engineering that do not fit in a demo. Evaluation. Governance. What breaks when you put a retrieval pipeline in front of real users who did not read the docs.
 
 Recent themes on [shubhamkatta.com](https://shubhamkatta.com):
 
-- RAG evaluation, confidence tiering, and detecting conflicts between sources
+- RAG evaluation, confidence tiering, and noticing when two sources quietly disagree
 - Claude Code workflows with custom agents and hooks
-- Observability as a design constraint rather than a dashboard you add later
+- Observability as a design constraint, not a dashboard you add after the incident
 - AI governance for teams that actually ship
 
 ---
